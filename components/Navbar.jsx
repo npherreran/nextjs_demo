@@ -4,19 +4,19 @@ import { ActiveLink } from './ActiveLink';
 const menuItems = [
     {
         link: '/',
-        name: 'home'
+        name: 'Home'
     },
     {
         link: '/about',
-        name: 'about'
+        name: 'About'
     },
     {
         link: '/contact',
-        name: 'contact'
+        name: 'Contact'
     },
     {
         link: '/pricing',
-        name: 'pricing'
+        name: 'Pricing'
     },
 ];
 

@@ -21,7 +21,7 @@ export const MainLayout = ({ children }) => {
     return (
         <div className={styles.container}>
             <Head>
-                <title>{PathName()} - Natalia</title>
+                <title>Portafolio Natalia Herrera</title>
                 <meta name="description" content={`${PathName()} page - Natalia Herrera`} />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
