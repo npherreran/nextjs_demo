@@ -13,7 +13,7 @@ const HomePage = () => {
   )
 }
 
-HomePage.getLayout = (page) => {
+HomePage.getLayout = (page: JSX.Element) => {
   return (
     <MainLayout>
       {page}
