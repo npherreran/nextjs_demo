@@ -14,7 +14,7 @@ const PricingPage = () => {
     )
 }
 
-PricingPage.getLayout = (page) => {
+PricingPage.getLayout = (page: JSX.Element) => {
     return (
         <MainLayout>
             {page}

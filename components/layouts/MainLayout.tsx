@@ -1,11 +1,12 @@
+import { FC, PropsWithChildren } from 'react';
 
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 import { Navbar } from '../Navbar';
 
 import styles from "../../styles/MainLayout.module.css";
-import { useRouter } from 'next/router';
 
-export const MainLayout = ({ children }) => {
+export const MainLayout: FC<PropsWithChildren> = ({ children }) => {
 
     const { asPath } = useRouter();
 

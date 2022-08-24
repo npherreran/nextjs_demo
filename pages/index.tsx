@@ -1,19 +1,19 @@
-import Link from 'next/link'
+import Link from 'next/link';
 import { MainLayout } from '../components/layouts/MainLayout';
 
-const ContactPage = () => {
+const HomePage = () => {
   return (
     <>
-      <h1>Contact page</h1>
+      <h1>Home page</h1>
       <h1 className={'title'}>
-        Ir a <Link href="/">Home</Link>
+        Ir a <Link href="/about">About</Link>
       </h1>
     </>
 
   )
 }
 
-ContactPage.getLayout = (page) => {
+HomePage.getLayout = (page) => {
   return (
     <MainLayout>
       {page}
@@ -21,4 +21,4 @@ ContactPage.getLayout = (page) => {
   )
 }
 
-export default ContactPage;
+export default HomePage;
